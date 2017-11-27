@@ -1,0 +1,5 @@
+FROM	Ubuntu:15.04
+MAINTAINER	kvkprasad
+RUN		apt-get update
+RUN		apt-get install nginx
+CMD		['echo', 'Hello World']
